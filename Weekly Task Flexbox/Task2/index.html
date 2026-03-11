@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FlexBox - Task 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Hanuman:wght@400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <div class="wrapper">
+  <section class="about-section">
+
+    <p class="label">About Us</p>
+    <h2 class="heading">The role of user experience in modern design</h2>
+
+    <div class="body-row">
+
+      <!-- Image -->
+      <div class="image-col">
+        <img src="./city.png" alt="Modern glass building"/>
+      </div>
+
+      <!-- Right panels -->
+      <div class="panels-col">
+
+        <!-- Box 1: 4K -->
+        <div class="box">
+          <div class="box-info">
+            <span class="stat-num">4K</span>
+            <div class="stat-body">
+              <div class="text-group">
+              <span class="stat-title">Happy customers</span>
+              <p class="stat-desc">We believe that the key to our success lies in understanding our clients.</p>
+              </div>
+              <div class="tagline-row">
+                <div class="avatars">
+                  <img src="./p1.jpg" alt=""/>
+                  <img src="./p2.jpg" alt=""/>
+                  <img src="./p3.jpg" alt=""/>
+                </div>
+                <span class="tagline-text">Sustainable <span>creativity,</span> timeless appeal.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Box 2: two side-by-side boxes -->
+        <div class="box-stats-row">
+
+          <!-- Left box: stat rows -->
+          <div class="box-rows">
+            <div class="rows-inner">
+            <div class="stat-row">
+              <span class="row-name">Strategy</span>
+              <span class="row-pct">75%</span>
+            </div>
+            <div class="stat-row">
+              <span class="row-name">Design</span>
+              <span class="row-pct">85%</span>
+            </div>
+            <div class="stat-row">
+              <span class="row-name">Strategy</span>
+              <span class="row-pct">75%</span>
+            </div>
+            </div>
+          </div>
+
+          <!-- Right box: satisfaction -->
+          <div class="box-satisfaction">
+            <span class="thumb-icon">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"/>
+                <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/>
+              </svg>
+            </span>
+            <span class="sat-label">Customer satisfaction rate</span>
+            <span class="sat-pct">95%</span>
+          </div>
+
+        </div><!-- /.box-stats-row -->
+
+      </div><!-- /.panels-col -->
+    </div><!-- /.body-row -->
+
+  </section>
+  </div>
+
+</body>
+</html>
