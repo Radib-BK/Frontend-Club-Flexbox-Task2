@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 1795px;
-    height: 625px;
+    height: auto;
     gap: 53px;
     opacity: 1;
 }
@@ -116,10 +116,6 @@ body {
     color: #ffffff;
 }
 
-.btn-filled:hover {
-    background-color: #1d4ed8;
-}
-
 /* ── Tablet Media Query ── */
 @media (max-width: 1400px) {
     body {
@@ -132,6 +128,18 @@ body {
         width: 1179px;
         height: 1303px;
         gap: 53px;
+    }
+
+    .card1 {
+        order: 0;
+    }
+
+    .card2 {
+        order: -1;
+    }
+
+    .card3 {
+        order: 1;
     }
 }
 
@@ -157,6 +165,8 @@ body {
         gap: 10px;
         flex-shrink: 0;
     }
+
+
 
     .card-inner {
         width: 347px;
