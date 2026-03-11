@@ -163,7 +163,7 @@ body {
   width: 28px;
   height: 28px;
   opacity: 1;
-  border-radius: 33554400px;
+  border-radius: 100%;
   border: 2px solid #fff;
   margin-left: -8px;
   object-fit: cover;
