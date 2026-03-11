@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1795px;
+    height: 625px;
+    gap: 53px;
+    opacity: 1;
+}
+
+.card {
+    width: 563px;
+    height: 625px;
+    background-color: #F2F7FE;
+    border-radius: 22px;
+    padding: 14px;
+    gap: 10px;
+    opacity: 1;
+    flex-shrink: 0;
+}
+
+.card-inner {
+    width: 535px;
+    height: 597px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 1;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    width: 535px;
+    height: 470px;
+    gap: 24px;
+    opacity: 1;
+}
+
+.card-top img {
+    width: 535px;
+    height: 300px;
+    border-radius: 12px;
+    object-fit: cover;
+    display: block;
+    opacity: 1;
+}
+
+.card-caption {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    gap: 17px;
+    opacity: 1;
+}
+
+.card-caption h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #393B4B;
+}
+
+.card-caption p {
+    font-size: 14px;
+    color: #393B4B;
+    line-height: 20px;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.btn {
+    width: 259.5px;
+    height: auto;
+    gap: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 12px 10px;
+    font-size: 16px;
+    line-height: 100%;;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline {
+    background-color: #F2F7FE;
+    border-color: #1658E7;
+    color: #1658E7;
+}
+
+.btn-filled {
+    background-color: #1658E7;
+    border-color: #1658E7;
+    color: #ffffff;
+}
+
+.btn-filled:hover {
+    background-color: #1d4ed8;
+}
