@@ -229,7 +229,7 @@ body {
 }
 .row-name {
   font-family: 'Inter', sans-serif;
-  font-weight: 200;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 16.5px;
@@ -238,7 +238,7 @@ body {
 }
 .row-pct {
   font-family: 'Inter', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 16.5px;
